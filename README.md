@@ -14,15 +14,15 @@ The application is user-friendly with basic functionality. A user simply enters 
 
 ## Screenshot
 
-
+![Homepage](./Assets/damp-mountain-90978.herokuapp.com_.png)
+![Notes](./Assets/damp-mountain-90978.herokuapp.com_notes.png)
 
 ## Links
 
-[GitHub](https://github.com/cbazil114/note-taker)
-[DeployedURL](https://cbazil114.github.io/note-taker/)
-[Heroku](https://damp-mountain-90978.herokuapp.com/)
-
-
+[GitHub](https://github.com/cbazil114/note-taker)</br>
+[DeployedURL](https://cbazil114.github.io/note-taker/)</br>
+[Heroku](https://damp-mountain-90978.herokuapp.com/)</br>
 
 ## Contributions
 
+Repo by cbazil114 (https://github.com/cbazil114). Special thanks to the learning assistants, tutor, and teaching assistants who helped troubleshoot issues with the application. 
