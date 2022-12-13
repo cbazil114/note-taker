@@ -10,7 +10,8 @@ Make sure to use npm i at the beginning of each session to ensure you have the n
 
 ## Usage
 
-The application is user-friendly with basic functionality. A user simply enters a note title and the note text itself before clicking the floppy disk icon in the top right to save the note. Using JSON, the note is saved to local storage, and will display each time the page is loaded. 
+The application is user-friendly with basic functionality. A user simply enters a note title and the note text itself before clicking the floppy disk icon in the top right to save the note. Using JSON, the note is saved to local storage, and will display each time the page is loaded. </br></br>
+You can view the notes on the left hand panel and, if you wish to create a new note, simply click the plus icon in the top right. 
 
 ## Screenshot
 
