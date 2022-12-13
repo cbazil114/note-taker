@@ -1,9 +1,10 @@
 const router = require("express").Router();
 const fs = require("fs");
 const uniqid = require("uniqid");
+var db = require("../db/db.json");
 
 router.get('/notes', (req, res) => {
-    var db = JSON.parse(fs.readFileSync("/db/db.json"));
+    db = JSON.parse(fs.readFileSync("./db/db.json"));
     console.log(db);
     //return res.json(db);
 
@@ -11,7 +12,7 @@ router.get('/notes', (req, res) => {
 });
 
 router.post('/notes', (req, res) => {
-    const db = JSON.parse(fs.readFileSync("db/db.json"));
+    db = JSON.parse(fs.readFileSync("./db/db.json"));
     console.log(db);
 
     let newNote = {
@@ -22,7 +23,7 @@ router.post('/notes', (req, res) => {
 
     db.push(newNote);
 
-    fs.writeFileSync("db/db.json", JSON.stringify(db));
+    fs.writeFileSync("./db/db.json", JSON.stringify(db));
     res.json(db);
     //return res.json(db);
 });
