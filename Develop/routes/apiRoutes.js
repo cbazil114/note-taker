@@ -3,7 +3,7 @@ const fs = require("fs");
 const uniqid = require("uniqid");
 
 router.get('/notes', (req, res) => {
-    var db = JSON.parse(fs.readFileSync("db/db.json"));
+    var db = JSON.parse(fs.readFileSync("/db/db.json"));
     console.log(db);
     //return res.json(db);
 
@@ -11,7 +11,7 @@ router.get('/notes', (req, res) => {
 });
 
 router.post('/notes', (req, res) => {
-    var db = JSON.parse(fs.readFileSync("db/db.json"));
+    const db = JSON.parse(fs.readFileSync("db/db.json"));
     console.log(db);
 
     let newNote = {
