@@ -21,7 +21,6 @@ You can view the notes on the left hand panel and, if you wish to create a new n
 ## Links
 
 [GitHub](https://github.com/cbazil114/note-taker)</br>
-[DeployedURL](https://cbazil114.github.io/note-taker/)</br>
 [Heroku](https://damp-mountain-90978.herokuapp.com/)</br>
 
 ## Contributions
